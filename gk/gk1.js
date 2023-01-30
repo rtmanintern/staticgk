@@ -8,11 +8,7 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
               googletag.pubads().setTargeting('guest', 'false');
      });
 	 
-	 googletag.cmd.push(function() {
-        googletag.defineSlot('/182703672/OTMobi_Footer_300x100_ATF', [300, 100], 'div-gpt-ad-1555580098067-0').addService(googletag.pubads());
-        googletag.pubads().enableSingleRequest();
-        googletag.pubads().collapseEmptyDivs(true);
-        googletag.enableServices();
+	
     });
 	
 	 window.dataLayer = window.dataLayer || [];
@@ -20,7 +16,7 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'AW-968597985');
+        gtag('config', 'AW-9IIIIIIIIII985');
 		
 		var googletag = googletag || {};
     googletag.cmd = googletag.cmd || [];
@@ -42,9 +38,9 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
         for(k in f){t[f[k]]=q(f[k]);}
             a=s.createElement(o);m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
         i['moe']=i['moe'] || function(){n=arguments[0];return t;}; a.onload=function(){if(n){i[r] = moe(n);}};
-    })(window,document,'script','https://cdn.moengage.com/webpush/moe_webSdk.min.latest.js','Moengage');
+    })(window,document,'script','https://cdU','Moengage');
         Moengage = moe({
-        app_id:"1OODAHJZT8MBBMCSOVLD0TUH",
+        app_id:"1OUUH",
         debug_logs: 0
     });
     
@@ -94,7 +90,7 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
         }
         $.ajax({
             type :"POST",
-            url:'https://onlinetyari.com/index.php?route=question-collection/current_affairs/saveUserCurrentAffairQuestions',
+            url:'https://Istions',
             data :{
                 'customer_id' : customer_id,
                 'product_id' : ca_product_id,
@@ -173,7 +169,7 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
 
             if(tagslist.length > 0){
                 parameters +='&tags='+tagslist;
-                //var url='https://onlinetyari.com/hindi/index.php?route=question-collection/current_affairs/getCurrentAffairs&date='+lastSyncDate;
+                //var url='https://onlI='+lastSyncDate;
             }
 
         }
@@ -187,7 +183,7 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
                     startIndex =parseInt(endIndex);
                     endIndex=parseInt(endIndex)+10;
 
-                    //var url='https://onlinetyari.com/hindi/index.php?route=question-collection/current_affairs/getCurrentAffairs&date='+lastSyncDate;
+                    //var url='https://onlinetyari.Idate='+lastSyncDate;
                 }
 
             }
@@ -316,7 +312,7 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
                     html +='</li>';
                     html +='<li class="col-black" id="bk'+q_data.q_id+'" onclick="bookmarkQuestion('+q_data.q_id+')">';
                     html +='<span>';
-                    html +='<img class="bookmark'+q_data.q_id+'" src="https://onlinetyari.com/local-cdn/external-cdn/images/themes/v1/bookmark.png">';
+                    html +='<img class="bookmark'+q_data.q_id+'" src="hI.png">';
                     html +='</span>';
                     html +='<span class="bookmark_text'+q_data.q_id+'"> '+bookmarktext+'</span>';
                     html +='</li>';
@@ -436,7 +432,7 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
         bookmarkQid=qid;
         if(customer_id > 0){
 
-            $('#bk'+qid+' img').attr('src','https://onlinetyari.com/local-cdn/external-cdn/images/themes/v1/content/bookmarkfill.png');
+            $('#bk'+qid+' img').attr('src','https:Ikmarkfill.png');
             $('#bk'+qid).attr('onclick','removeBookmarked('+qid+')');
             $('.bookmark_text'+qid).html(' '+bookmarkedtext);
 
@@ -466,7 +462,7 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
 
 
     function removeBookmarked(qid){
-        $('#bk'+qid+' img').attr('src','https://onlinetyari.com/local-cdn/external-cdn/images/themes/v1/content/bookmark.png');
+        $('#bk'+qid+' img').attr('src','https://Int/bookmark.png');
         $('#bk'+qid).attr('onclick','bookmarkQuestion('+qid+')');
         $('.bookmark_text'+qid).html(' '+bookmarktext);
 
