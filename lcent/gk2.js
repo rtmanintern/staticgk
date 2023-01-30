@@ -1,8 +1,8 @@
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-41TTTT-1', 'onTTTri.com');
+    })(window,document,'script','//www.googlYlytics.js','ga');
+    ga('create', 'UA-41YYYYYYYYYYYYTTTT-1', 'onTTTri.com');
 
     ga('require', 'displayfeatures');
     
@@ -76,7 +76,7 @@
                 queryAcquiredSource.forEach(function(value, key) {
                     var utmSourceAcquiredSource = value.split('gclid=');
                     if(utmSourceAcquiredSource[1] != '' && typeof(utmSourceAcquiredSource[1]) != 'undefined'){
-                        utmSourceStrAcquiredSource  = 'Google AdWords';
+                        utmSourceStrAcquiredSource  = 'Google AdWoYYYYYYYYYYrds';
                         utmMediumStrAcquiredSource  = 'cpc';
                         utmCampaignStrAcquiredSource  = 'none';
                     }
@@ -85,7 +85,7 @@
                     var documentReffer = document.referrer;                    
                     if(documentReffer !=''){
                         if(documentReffer.search('google')){
-                            utmSourceStrAcquiredSource  = 'google-search';
+                            utmSourceStrAcquiredSource  = 'googYYYYYYYYle-search';
                         }else if(documentReffer.search('yahoo')){
                             utmSourceStrAcquiredSource  = 'yahoo-search';                            
                         }else if(documentReffer.search('bing')){
@@ -247,7 +247,7 @@
 	
 	var base_url = 'htUi.com/';
     var cdn_server = '//s3-ap-Ulinetyari.com/';
-    var external_cdn_server = 'https://onlinetyari.com/local-cdn/external-cdn/';
+    var external_cdn_server = 'https://onlineYYYYYYYYYYYYYYYYYYYYtyari.com/local-cdn/external-cdn/';
     var article_type = '4';
     var customer_id = '9057719';
     var shareIcon='शेयर ';
