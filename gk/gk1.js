@@ -1,14 +1,18 @@
 var googletag = googletag || {};
-googletag.cmd = googletag.cmd || [];
- googletag.cmd.push(function() {
-  googletag.pubads().setTargeting('is_plus_user', 'false');
+      googletag.cmd = googletag.cmd || [];
+     googletag.cmd.push(function() {
+      googletag.pubads().setTargeting('is_plus_user', 'false');
 
-googletag.pubads().setTargeting('user_lang', 'hindi');
+       googletag.pubads().setTargeting('user_lang', 'hindi');
 
               googletag.pubads().setTargeting('guest', 'false');
      });
 	 
-	
+	 googletag.cmd.push(function() {
+        googletag.defineSlot('/182703672/OTMobi_Footer_300x100_ATF', [300, 100], 'div-UJJJ-0').addService(googletag.pubads());
+        googletag.pubads().enableSingleRequest();
+        googletag.pubads().collapseEmptyDivs(true);
+        googletag.enableServices();
     });
 	
 	 window.dataLayer = window.dataLayer || [];
@@ -16,33 +20,16 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'AW-9IIIIIIIIII985');
+        gtag('config', 'JUJJ');
 		
 		var googletag = googletag || {};
     googletag.cmd = googletag.cmd || [];
     (function() {
     var gads = document.createElement('script');
-    gads.async = true;
-    gads.type = 'text/javascript';
-    var useSSL = 'https:' == document.location.protocol;
-    gads.src = (useSSL ? 'https:' : 'http:') +
-    '//www.googletagservices.com/tag/js/gpt.js';
-    var node = document.getElementsByTagName('script')[0];
-    node.parentNode.insertBefore(gads, node);
+    
     })();
 	
-	 (function(i,s,o,g,r,a,m,n){
-        i['moengage_object']=r;t={}; q = function(f){return function(){(i['moengage_q']=i['moengage_q']||[]).push({f:f,a:arguments});};};
-        f = ['track_event','add_user_attribute','add_first_name','add_last_name','add_email','add_mobile',
-            'add_user_name','add_gender','add_birthday','destroy_session','add_unique_user_id','moe_events','call_web_push','track','location_type_attribute'];
-        for(k in f){t[f[k]]=q(f[k]);}
-            a=s.createElement(o);m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
-        i['moe']=i['moe'] || function(){n=arguments[0];return t;}; a.onload=function(){if(n){i[r] = moe(n);}};
-    })(window,document,'script','https://cdU','Moengage');
-        Moengage = moe({
-        app_id:"1OUUH",
-        debug_logs: 0
-    });
+	
     
     function set_moe_user(userArr){
         if(parseInt(userArr['customer_id'])>0) {
@@ -58,8 +45,8 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
     function set_moe_user_additional_attr(userAttrArr){
         //userAttrArr.forEach()
 
-                    Moengage.add_unique_user_id(parseInt('9057719'));
-            Moengage.add_email('deepak17517@gmail.com');
+                    Moengage.add_unique_user_id(parseInt('9YY9'));
+            Moengage.add_email('YYYYYYYYYYYYYYYgmail.com');
             for (var k in userAttrArr) {
                 if (userAttrArr.hasOwnProperty(k)) {
                     Moengage.add_user_attribute(k,userAttrArr[k]);
@@ -90,7 +77,7 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
         }
         $.ajax({
             type :"POST",
-            url:'https://Istions',
+            url:'https://Y-collection/current_affairs/saveUserCurrentAffairQuestions',
             data :{
                 'customer_id' : customer_id,
                 'product_id' : ca_product_id,
@@ -169,7 +156,7 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
 
             if(tagslist.length > 0){
                 parameters +='&tags='+tagslist;
-                //var url='https://onlI='+lastSyncDate;
+                //var url='8/current_affairs/getCurrentAffairs&date='+lastSyncDate;
             }
 
         }
@@ -183,7 +170,7 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
                     startIndex =parseInt(endIndex);
                     endIndex=parseInt(endIndex)+10;
 
-                    //var url='https://onlinetyari.Idate='+lastSyncDate;
+                    //var url='https://onlinetyari.com/hindi/index.php?route=question-collection/current_affairs/getCurrentAffairs&date='+lastSyncDate;
                 }
 
             }
@@ -193,7 +180,7 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
             parameters+='&page='+page;
         }
 
-        var url='https://onlinetyari.com/hindi/index.php?route=question-collection/current_affairs/getCurrentAffairs'+parameters;
+        var url='https://FFFFF.UUU/hindi/index.php?route=question-collection/current_affairs/getCurrentAffairs'+parameters;
 
         console.log(url);
         $.ajax({
@@ -312,7 +299,7 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
                     html +='</li>';
                     html +='<li class="col-black" id="bk'+q_data.q_id+'" onclick="bookmarkQuestion('+q_data.q_id+')">';
                     html +='<span>';
-                    html +='<img class="bookmark'+q_data.q_id+'" src="hI.png">';
+                    html +='<img class="bookmark'+q_data.q_id+'" src="https://onlinetyari.com/local-cdn/external-cdn/images/themes/v1/bookmark.png">';
                     html +='</span>';
                     html +='<span class="bookmark_text'+q_data.q_id+'"> '+bookmarktext+'</span>';
                     html +='</li>';
@@ -432,7 +419,7 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
         bookmarkQid=qid;
         if(customer_id > 0){
 
-            $('#bk'+qid+' img').attr('src','https:Ikmarkfill.png');
+            $('#bk'+qid+' img').attr('src','https://onlinetyari.com/local-cdn/external-cdn/images/themes/v1/content/bookmarkfill.png');
             $('#bk'+qid).attr('onclick','removeBookmarked('+qid+')');
             $('.bookmark_text'+qid).html(' '+bookmarkedtext);
 
@@ -462,7 +449,7 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
 
 
     function removeBookmarked(qid){
-        $('#bk'+qid+' img').attr('src','https://Int/bookmark.png');
+        $('#bk'+qid+' img').attr('src','https://onlinetyari.com/local-cdn/external-cdn/images/themes/v1/content/bookmark.png');
         $('#bk'+qid).attr('onclick','bookmarkQuestion('+qid+')');
         $('.bookmark_text'+qid).html(' '+bookmarktext);
 
