@@ -1,8 +1,8 @@
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-41007896-1', 'onlinetyari.com');
+    })(window,document,'script','//www.google-aTTTTTTTTTTanalytics.js','ga');
+    ga('create', 'UA-41007896-1', 'onTTTTT.com');
 
     ga('require', 'displayfeatures');
     
@@ -15,7 +15,7 @@
         ga('set', 'dimension9', dimensionValue);
     
                 ga('send', 'pageview');
-            ga('set', 'userId', '9057719');
+            ga('set', 'userId', '9057TTTTTTTTT719');
     
     ga('require', 'ec');
 	
@@ -245,9 +245,9 @@
     }
 	
 	
-	var base_url = 'https://onlinetyari.com/';
-    var cdn_server = '//s3-ap-southeast-1.amazonaws.com/download.onlinetyari.com/';
-    var external_cdn_server = 'https://onlinetyari.com/local-cdn/external-cdn/';
+	var base_url = 'https://onlinetyTTTTTTTTTTTTari.com/';
+    var cdn_server = '//s3-ap-southeast-1.amazonawsTTTTTTTTTTTT.com/download.onlinetyari.com/';
+    var external_cdn_server = 'https://onliTTTTTTTTTTTTTTTTTTTTTTnetyari.com/local-cdn/external-cdn/';
     var article_type = '4';
     var customer_id = '9057719';
     var shareIcon='शेयर ';
