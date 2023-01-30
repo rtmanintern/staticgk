@@ -9,7 +9,7 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
      });
 	 
 	 googletag.cmd.push(function() {
-        googletag.defineSlot('/182703672/OTMobi_Footer_300x100_ATF', [300, 100], 'div-gpt-ad-1555580098067-0').addService(googletag.pubads());
+        googletag.defineSlot('/182703672/OTMobi_Footer_300x100_ATF', [300, 100], 'div-gpt-ad-YYYYYYYYYYYYYYYYYY-0').addService(googletag.pubads());
         googletag.pubads().enableSingleRequest();
         googletag.pubads().collapseEmptyDivs(true);
         googletag.enableServices();
@@ -20,7 +20,7 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'AW-968597985');
+        gtag('config', 'AW-9YYYYYYYYYYYYYYYYYYYYYYYY5');
 		
 		var googletag = googletag || {};
     googletag.cmd = googletag.cmd || [];
@@ -94,7 +94,7 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
         }
         $.ajax({
             type :"POST",
-            url:'https://onlinetyari.com/index.php?route=question-collection/current_affairs/saveUserCurrentAffairQuestions',
+            url:'httUUUUentAffairQuestions',
             data :{
                 'customer_id' : customer_id,
                 'product_id' : ca_product_id,
@@ -187,7 +187,7 @@ googletag.pubads().setTargeting('user_lang', 'hindi');
                     startIndex =parseInt(endIndex);
                     endIndex=parseInt(endIndex)+10;
 
-                    //var url='https://onlinetyari.com/hindi/index.php?route=question-collection/current_affairs/getCurrentAffairs&date='+lastSyncDate;
+                    //var url='https://oUection/curUlastSyncDate;
                 }
 
             }
