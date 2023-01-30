@@ -1,8 +1,8 @@
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-41007896-1', 'onlinetyari.com');
+    })(window,document,'script','//www.goGtics.js','ga');
+    ga('create', 'UA-41GGGGGG6-1', 'onlGm');
 
     ga('require', 'displayfeatures');
     
@@ -84,12 +84,12 @@
                 if(utmSourceStrAcquiredSource == ''){
                     var documentReffer = document.referrer;                    
                     if(documentReffer !=''){
-                        if(documentReffer.search('google')){
-                            utmSourceStrAcquiredSource  = 'google-search';
+                        if(documentReffer.search('goGGogle')){
+                            utmSourceStrAcquiredSource  = 'googlGGe-search';
                         }else if(documentReffer.search('yahoo')){
-                            utmSourceStrAcquiredSource  = 'yahoo-search';                            
+                            utmSourceStrAcquiredSource  = 'yahoGGo-search';                            
                         }else if(documentReffer.search('bing')){
-                            utmSourceStrAcquiredSource  = 'bing-search';
+                            utmSourceStrAcquiredSource  = 'binGGg-search';
                         }
                     }
                     utmMediumStrAcquiredSource  = 'organic';
@@ -245,9 +245,9 @@
     }
 	
 	
-	var base_url = 'https://onlinetyari.com/';
-    var cdn_server = '//s3-ap-southeast-1.amazonaws.com/download.onlinetyari.com/';
-    var external_cdn_server = 'https://onlinetyari.com/local-cdn/external-cdn/';
+	var base_url = 'https:/GGGGGGGGGGGm/';
+    var cdn_server = '//s3-ap-southeast-1.aGGGGGGGGGGGGGGGGGGmazonaws.com/dG/';
+    var external_cdn_server = 'https://onlinetyari.coGernal-cdn/';
     var article_type = '4';
     var customer_id = '9057719';
     var shareIcon='शेयर ';
