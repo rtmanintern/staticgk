@@ -1,0 +1,47 @@
+.ot-ques-list-ul li{line-height:2.3;margin-top:10px;padding:5px 8px;
+border:0.4px solid black;
+border-radius:10px;
+cursor:pointer;}
+    
+    .ot-correct-li{border:px solid #46c17a;}
+    .ot-wrong-li{border:px solid #db605d;}
+    .ot-correct-li> #ot-ques-list-circle{width:20px; height:27px;-moz-border-radius:20px; -webkit-border-radius: 20px; border-radius:20px;float: left;border:2px solid #46c17a;background-color:#46c17a;color:#fff;text-transform:uppercase;margin-top: 3px;line-height: 1.8;padding-left: 7px;}
+    
+    
+    .ot-wrong-li> #ot-ques-list-circle{width:20px; height:27px;-moz-border-radius:20px; -webkit-border-radius: 25px; border-radius:25px;float: left;border:2px solid #db605d;background-color:#db605d;color:#fff;text-transform:uppercase;margin-top: 3px;line-height:1.8;padding-left:8px;}
+    #ot-ques-list-circle { width:20px; height:27px; background:#fff; -moz-border-radius:25px; -webkit-border-radius: 25px; border-radius:25px;float: left;border:1px solid #000;text-transform:uppercase;margin-top: 3px;line-height: 1.8;padding-left:8px;}
+    .ot-ques-list-input {visibility:hidden;}
+    .ot-ques-list-label {cursor: pointer;font-weight:normal;max-width: 80%;}
+    .ot-content-correct-answer{display:none;
+width: 100%;
+background-color:#f6faf2;}
+    .ot-content-correct-answer .p1-green{color:#46c17a;font-size:15px;font-family:'SegoeUI-Regular';}
+    .ot-content-correct-answer .p2-black{color:#000;font-size:12px;font-family:'SegoeUI-Regular';}
+    .ot-content-wrong-answer{display:none;}
+    .ot-content-wrong-answer p{color:#db605d;}
+    .pad_10{padding-bottom:10px;padding-top:10px;}
+    .pad_15{padding-top:15px; padding-bottom:15px;}
+    .ot-content-wrong-answerp {
+        color: #db605d;
+    }
+    
+	
+	
+	.frac {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
+}
+.frac > span {
+    display: block;
+    padding: 0.1em;
+}
+.frac span.bottom {
+    border-top: thin solid black;
+}
+.frac span.symbol {
+    display: none;
+} 
+	
